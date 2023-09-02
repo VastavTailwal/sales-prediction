@@ -50,7 +50,7 @@ The Big Mart Sales Prediction project is a data science and machine learning pro
 | Light GBM | 0.61 |
 | ANN | 0.60 * |
 
-- Best model is Light GBM with test accuracy of `0.60`.
+- Best model is Light GBM with test r<sup>2</sup> score of `0.60`.
 
 \* Overfitted
 
