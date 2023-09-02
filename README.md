@@ -19,10 +19,10 @@ The Big Mart Sales Prediction project is a data science and machine learning pro
   - Linear Regression
   - Lasso Regression
   - Ridge Regression
-  - Artificial Neural Network (ANN)
+  - Random Forest
   - XGBoost
   - LightGBM
-  - Random Forest
+  - Artificial Neural Network (ANN)
 
 ## Approach
 
@@ -40,9 +40,19 @@ The Big Mart Sales Prediction project is a data science and machine learning pro
 
 ## Results
 
-- 
+| Model | R2 score |
+| ----- | -------- |
+| Linear Regression | 0.63 * |
+| Lasso Regression | 0.51 |
+| Ridge Regression | 0.51 |
+| Random Forest | 0.59 |
+| XG Boost | 0.60 |
+| Light GBM | 0.61 |
+| ANN | 0.60 * |
 
-- Identification of the best-performing model for sales prediction.
+- Best model is Light GBM with test accuracy of `0.60`.
+
+\* Overfitted
 
 ## Lessons Learned
 
